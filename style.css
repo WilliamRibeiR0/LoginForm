@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+}
+.logo{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+/* ######################################## FORM ################################################ */
+
+.boxForm{
+    
+    height: 100vh;
+    width: 50%;
+    display: grid;
+    place-items: center;
+    color: #AFB6C2;
+   
+    background-color: #000000;
+}
+
+.backForm{
+    background-color: #24221F;
+    width: 572px;
+    height: 512px;
+    border-radius: 4px;
+
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+}
+
+h1{
+    color: #D4CCB6;
+}
+
+.input-containerOne, .input-containerTwo {
+    position: relative;
+    width: 335px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+ 
+}
+
+.input-containerOne input, .input-containerTwo input {
+    width: 100%;
+    padding: 10px 10px 10px 30px;
+    box-sizing: border-box;
+    background-color: #24221F;
+    border: solid 1px #868686;
+    border-radius: 4px;
+    
+}
+
+.input-containerOne::before {
+    content: url(icon/mail.png); 
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px; 
+    height: 20px;
+    
+}
+
+.input-containerTwo::before {
+    content: url(icon/lock.png); 
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px; 
+    height: 20px; 
+}
+
+
+
+
+
+
+
+
+/* ######################################## IMG ################################################ */
+
+.boxImg{
+    background-color: bisque;
+    height: 100vh;
+    width: 50%;
+}
