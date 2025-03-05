@@ -48,7 +48,6 @@ form {
     gap: 30px;
     height: 100%;
     width: 335px;
-    
 }
 
 .title {
@@ -69,7 +68,6 @@ h1 {
     height: 44px;
     display: flex;
     align-items: center;
-    
 }
 .input-containerOne {
     margin-bottom: 20px;
@@ -83,7 +81,6 @@ h1 {
     background-color: #24221f;
     border: solid 1px #868686;
     border-radius: 4px;
-    
 }
 
 .input-containerOne input:hover {
@@ -159,4 +156,34 @@ a {
     width: 50%;
     background: url(img/side-image.jpg) no-repeat center center;
     background-size: cover;
+}
+
+@media (max-width: 980px) {
+    .boxImg {
+        display: none;
+    }
+    .boxForm {
+        width: 100%;
+        font-size: 13px;
+    }
+    .backForm {
+        width: 300px;
+    }
+    form {
+        width: 300px;
+    }
+    .input-containerOne,
+    .input-containerTwo {
+        width: 250px;
+    }
+    .checkbox input {
+        width: 18px;
+        height: 18px;
+    }
+    .checkbox {
+        width: 270px;
+    }
+    .boxButton {
+        width: 200px;
+    }
 }
